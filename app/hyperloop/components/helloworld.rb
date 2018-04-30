@@ -34,7 +34,9 @@
       SPAN{'Or anything you want (^̮^)'}
     end
 
-    INPUT(type: :text, class: 'form-control')
+    INPUT(type: :text, class: 'form-control').on(:change) do |e|
+      mutate.field_value e.target.value
+    end
 
   end
 
