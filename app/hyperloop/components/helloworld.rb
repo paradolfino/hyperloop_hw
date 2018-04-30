@@ -41,7 +41,7 @@
   end
 
   def show_text
-    H1 { "input field value will be displayed here" unless state.field_value }
+    H1 { "#{state.field_value}" }
   end
 end
 
