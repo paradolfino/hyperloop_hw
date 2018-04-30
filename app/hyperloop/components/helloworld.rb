@@ -31,7 +31,7 @@
     end
 
     def render
-      DIV do
+      DIV(class: 'hyperloophelloword')do
         "Helloworld"
       end
     end
