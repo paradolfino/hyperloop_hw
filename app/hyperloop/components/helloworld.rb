@@ -32,7 +32,9 @@
 
     def render
       DIV(class: 'hyperloophelloword')do
-        "Helloworld"
+        IMG(src: 'https://rawgit.com/ruby-hyperloop/hyperloop-js-helloworld/master/hyperloop-logo-medium-white.png?raw=true')
+        H3 { "The complete isomorphic ruby framework" }
+        BR{}
       end
     end
   end
