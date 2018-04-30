@@ -19,8 +19,8 @@
     
     def show_button
     BUTTON(class: 'btn btn-info') do
-      "Toggle button"
-    end
+      state.show_field ? "Click to hide HelloWorld input field" : "Click to show HelloWorld input field"
+    end.on(:click) { mutate.show_field !state.show_field }
   end
 
   def show_input
