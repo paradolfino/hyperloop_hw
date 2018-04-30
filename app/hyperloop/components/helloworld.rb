@@ -35,6 +35,12 @@
         IMG(src: 'https://rawgit.com/ruby-hyperloop/hyperloop-js-helloworld/master/hyperloop-logo-medium-white.png?raw=true')
         H3 { "The complete isomorphic ruby framework" }
         BR{}
+        
+          show_button
+        DIV(class: 'formdiv') do
+          show_input
+          show_text
+        end
       end
     end
   end
