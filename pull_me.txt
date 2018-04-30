@@ -1,1 +1,5 @@
 
+[finish styling [work on implementing Hyperloop Store next]]
+### 30/04/2018[00:06 - 00:27]:
+* work on styling component
+
