@@ -43,5 +43,29 @@
         end
       end
     end
+    
+    def show_button
+    BUTTON(class: 'btn btn-info') do
+      "Toggle button"
+    end
   end
+
+  def show_input
+
+    H4 do 
+      SPAN{'Please type '}
+      SPAN(class: 'colored') {'Hello World'}
+      SPAN{' in the input field below :'}
+      BR {}
+      SPAN{'Or anything you want (^̮^)'}
+    end
+
+    INPUT(type: :text, class: 'form-control')
+
+  end
+
+  def show_text
+    H1 { "input field value will be displayed here" }
+  end
+end
 
