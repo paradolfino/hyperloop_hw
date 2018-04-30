@@ -13,7 +13,7 @@
         DIV(class: 'formdiv') do
           show_input
           show_text
-        end
+        end if state.show_field
       end
     end
     
