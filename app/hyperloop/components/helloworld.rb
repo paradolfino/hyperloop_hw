@@ -2,6 +2,7 @@
   class Helloworld < Hyperloop::Component
 
     state show_field: false
+    state field_value: ""
 
     def render
       DIV(class: 'hyperloophelloword')do
